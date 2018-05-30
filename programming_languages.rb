@@ -14,7 +14,8 @@ def reformat_languages(languages)
 =end
 
 =begin
-new_hash[key][:style] = [:oo] 
+new_hash[key][:style] = [:oo]
+use << unles multiple values won't work, e.g. Javascript =>
 =end
 
   languages.each do |k, v|
